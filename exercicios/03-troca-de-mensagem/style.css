@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f3fbf7;
+  font-family: Arial, sans-serif;
+}
+
+.painel {
+  width: 360px;
+  padding: 28px;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 14px 28px rgba(22, 81, 52, 0.14);
+  text-align: center;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  padding: 12px 20px;
+  background: #1d8f5f;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #156f49;
+}

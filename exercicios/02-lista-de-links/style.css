@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  background: #faf7ff;
+  font-family: Arial, sans-serif;
+  color: #261a35;
+}
+
+.conteudo {
+  max-width: 640px;
+  margin: 48px auto;
+  padding: 24px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li + li {
+  margin-top: 12px;
+}
+
+a {
+  color: #6a2fb4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

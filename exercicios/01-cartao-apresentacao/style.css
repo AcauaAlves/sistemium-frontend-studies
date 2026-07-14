@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eef4f7;
+  font-family: Arial, sans-serif;
+}
+
+.cartao {
+  width: 320px;
+  padding: 24px;
+  border-radius: 14px;
+  background: white;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+h1 {
+  margin-top: 0;
+  color: #134b5f;
+}
