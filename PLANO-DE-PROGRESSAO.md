@@ -1,6 +1,6 @@
 # Plano de Progressão da Trilha Front-End
 
-Este arquivo existe para manter o repositório alinhado com a etapa real da trilha, sem misturar entregas de níveis diferentes no mesmo ciclo.
+Este arquivo existe para manter o repositório alinhado com a etapa real da trilha, sem misturar entregas de níveis diferentes no mesmo commit.
 
 ## Etapa preparada agora
 
@@ -10,21 +10,16 @@ Status:
 
 - organizado;
 - documentado;
-- focado em base de estudos;
+- focado na base obrigatória;
 - sem avançar para o Nível 1.
 
 ## O que o Nível 0 pede segundo `INS-008`
 
-- Git e GitHub;
-- Markdown;
-- terminal / linha de comando;
-- leitura de documentação;
-- branch;
-- commit;
-- Pull Request;
-- uso responsável de IA como apoio de estudo;
-- inspeção básica de tela no navegador;
-- capacidade de explicar visualmente o que está quebrado em uma interface.
+- README de apresentação;
+- pasta `log-de-estudos`;
+- primeira página HTML/CSS simples;
+- pelo menos 3 exercícios de HTML/CSS/JavaScript;
+- primeiro Pull Request aberto.
 
 ## O que foi deixado no repositório para esta entrega
 
@@ -38,4 +33,5 @@ Status:
 
 - O foco atual fica apenas no `Nível 0`.
 - Nada de landing page responsiva entra neste momento.
-- Nada de React, Vue, Next ou Nuxt entra nesta etapa.
+- Nada de framework entra nesta etapa.
+- Etapas futuras continuam fora deste PR.
