@@ -17,34 +17,35 @@ Estou organizando meus estudos de front-end com foco em:
 
 Entrega atual em andamento neste repositório:
 
-- `Nível 0 - Base obrigatória`
-- primeira página HTML/CSS simples
-- exercícios iniciais de HTML, CSS e JavaScript
+- `Nível 1 - Fundamentos da Web e interfaces`
+- landing page responsiva em HTML, CSS e JavaScript
+- base inicial do Nível 0 mantida como evidência anterior
 - evidências escritas com base nos PDFs `INS-003`, `INS-004`, `INS-006` e `INS-008`
 
 ## O que já está organizado
 
-Com base em `INS-008`, o repositório já tem a base exigida para o `Nível 0` da trilha Front-End.
+Com base em `INS-008`, o repositório já tem a base do `Nível 0` e a preparação da entrega atual do `Nível 1` da trilha Front-End.
 
 Principais evidências atuais:
 
 - `README.md` de apresentação;
-- `log-de-estudos/` com registro da etapa;
+- `log-de-estudos/` com registro das etapas;
 - primeira página simples em `primeira-pagina-html-css/`;
 - exercícios iniciais em `exercicios/`;
-- documentação alinhada ao escopo do Nível 0.
+- landing page atual em `landing-pages/01-clinica-lumina/`;
+- documentação alinhada ao escopo atual da trilha.
 
 ## Foco atual
 
-Meu foco atual dentro da trilha Front-End está na **base obrigatória da etapa inicial**.
+Meu foco atual dentro da trilha Front-End está em **HTML, CSS, JavaScript básico e construção de interface responsiva**.
 
 Os arquivos criados neste repositório servem para mostrar que eu já consigo:
 
-- organizar um repositório de estudos;
-- documentar a etapa atual;
-- abrir páginas simples no navegador;
-- separar HTML, CSS e JavaScript em arquivos próprios;
-- registrar evidências iniciais de prática.
+- organizar conteúdo com HTML semântico;
+- estilizar uma interface com CSS;
+- montar layout responsivo para desktop e celular;
+- validar formulário simples com JavaScript;
+- documentar a entrega atual com evidências verificáveis.
 
 ## Estrutura atual
 
@@ -55,26 +56,30 @@ sistemium-frontend-studies/
 ├── .github/
 │   └── pull_request_template.md
 ├── log-de-estudos/
+├── landing-pages/
 ├── primeira-pagina-html-css/
 └── exercicios/
 ```
 
-## Entrega atual do Nível 0 em Front-End
+## Entrega atual do Nível 1 em Front-End
 
-A entrega atual deste repositório cobre a base inicial pedida pela trilha, com:
+A entrega atual deste repositório cobre a landing page pedida pela trilha, com:
 
-- README de apresentação;
-- log de estudos;
-- primeira página HTML/CSS simples;
-- 3 exercícios iniciais de HTML, CSS e JavaScript;
-- primeiro Pull Request aberto.
+- cabeçalho;
+- seção principal;
+- seção de benefícios;
+- formulário de contato;
+- rodapé;
+- responsividade para celular e desktop;
+- validação simples com JavaScript.
 
 ## Como abrir localmente
 
-Como esta etapa ainda usa arquivos simples de front-end, basta abrir os `index.html` no navegador.
+Como esta etapa usa arquivos estáticos, basta abrir os `index.html` no navegador.
 
 Exemplos principais:
 
+- `landing-pages/01-clinica-lumina/index.html`;
 - `primeira-pagina-html-css/index.html`;
 - `exercicios/01-cartao-apresentacao/index.html`;
 - `exercicios/02-lista-de-links/index.html`;
@@ -82,4 +87,4 @@ Exemplos principais:
 
 ## Observação de escopo
 
-Este repositório foi mantido propositalmente simples para ficar coerente com o `Nível 0` da trilha Front-End, sem antecipar landing page responsiva, framework ou integração com API.
+Esta entrega foi mantida propositalmente simples para ficar coerente com o `Nível 1` da trilha Front-End, sem antecipar framework, consumo de API ou TypeScript.
