@@ -9,3 +9,4 @@ Manter um histórico simples e verificável do que foi estudado, praticado e org
 ## Arquivos atuais
 
 - `2026-07-14.md`: criação da base do repositório e fechamento da entrega do Nível 0
+- `2026-07-14-nivel-1.md`: desenvolvimento da landing page do Nível 1

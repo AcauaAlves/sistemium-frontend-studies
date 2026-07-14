@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Clínica Lumina: landing page responsiva criada como estudo do Nível 1 da trilha Front-End da Sistemium."
+    />
+    <title>Clínica Lumina</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topo">
+      <div class="marca">
+        <span class="marca__selo">Lumina</span>
+        <span class="marca__texto">Clínica de cuidado preventivo</span>
+      </div>
+      <nav class="menu" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#beneficios">Benefícios</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero__conteudo">
+          <p class="hero__linha">Atendimento humano, agenda rápida e foco em prevenção.</p>
+          <h1>Uma clínica pensada para quem quer cuidar da saúde com clareza e calma.</h1>
+          <p class="hero__descricao">
+            Esta landing page foi criada para praticar a base real do front-end com HTML semântico,
+            CSS responsivo e validação simples de formulário com JavaScript.
+          </p>
+          <div class="hero__acoes">
+            <a class="botao botao--primario" href="#contato">Agendar contato</a>
+            <a class="botao botao--secundario" href="#beneficios">Ver benefícios</a>
+          </div>
+        </div>
+
+        <aside class="hero__painel" aria-label="Resumo visual da clínica">
+          <div class="card card--destaque">
+            <h2>Consulta inicial</h2>
+            <p>Acolhimento, escuta e definição do próximo passo com orientação simples.</p>
+          </div>
+          <div class="card">
+            <strong>+120</strong>
+            <span>atendimentos iniciais simulados para o estudo da interface</span>
+          </div>
+          <div class="card">
+            <strong>48h</strong>
+            <span>prazo simbólico de retorno usado como informação de produto na página</span>
+          </div>
+        </aside>
+      </section>
+
+      <section class="beneficios" id="beneficios" aria-labelledby="titulo-beneficios">
+        <div class="secao__cabecalho">
+          <p class="secao__linha">Benefícios</p>
+          <h2 id="titulo-beneficios">O que esta interface comunica sobre o serviço</h2>
+        </div>
+
+        <div class="beneficios__grid">
+          <article class="beneficio">
+            <h3>Atendimento organizado</h3>
+            <p>
+              A estrutura da página apresenta o serviço de forma direta, com blocos bem separados
+              e leitura clara.
+            </p>
+          </article>
+
+          <article class="beneficio">
+            <h3>Informação objetiva</h3>
+            <p>
+              O conteúdo evita excesso visual e mostra proposta, diferenciais e caminho de contato
+              sem poluição.
+            </p>
+          </article>
+
+          <article class="beneficio">
+            <h3>Contato rápido</h3>
+            <p>
+              O formulário fica visível na mesma página e já permite validar campos básicos antes
+              do envio.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contato" id="contato" aria-labelledby="titulo-contato">
+        <div class="secao__cabecalho">
+          <p class="secao__linha">Contato</p>
+          <h2 id="titulo-contato">Peça um retorno da clínica</h2>
+        </div>
+
+        <form class="formulario" id="formulario-contato" novalidate>
+          <div class="campo">
+            <label for="nome">Nome</label>
+            <input id="nome" name="nome" type="text" placeholder="Digite seu nome" />
+            <small class="erro" id="erro-nome"></small>
+          </div>
+
+          <div class="campo">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="voce@email.com" />
+            <small class="erro" id="erro-email"></small>
+          </div>
+
+          <div class="campo">
+            <label for="mensagem">Mensagem</label>
+            <textarea
+              id="mensagem"
+              name="mensagem"
+              rows="5"
+              placeholder="Explique em poucas linhas o que você precisa."
+            ></textarea>
+            <small class="erro" id="erro-mensagem"></small>
+          </div>
+
+          <button class="botao botao--primario" type="submit">Enviar mensagem</button>
+          <p class="feedback" id="feedback-formulario" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="rodape">
+      <p>Clínica Lumina • Estudo de landing page do Nível 1 Front-End da Sistemium</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
